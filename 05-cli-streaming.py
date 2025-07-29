@@ -7,7 +7,7 @@ api_key = os.getenv("OPEN_API_KEY")
 client = OpenAI(api_key=api_key)
 
 stream=client.responses.create(
-    model="gpy-4o",
+    model="gpt-4o",
     input="make python code for factorial",
     stream=True,
 )
