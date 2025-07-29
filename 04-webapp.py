@@ -21,4 +21,3 @@ if st.button("관상 보기", type="primary"):
             st.info(result)
     else:
         st.error("얼굴을 알려줘야 관상을 봐주죠.")
-    
