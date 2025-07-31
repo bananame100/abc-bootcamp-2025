@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>나만의 가상 펫</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="pet-container">
+        <h1>나의 펫: <span id="pet-name">다마고치</span></h1>
+        <div class="pet-display">
+            <img id="pet-image" src="images/happy_pet.png" alt="행복한 펫">
+            <p id="pet-message" class="message"></p>
+        </div>
+
+        <div class="status-bars">
+            <div class="status-item">
+                <label for="hunger-bar">배고픔:</label>
+                <progress id="hunger-bar" value="0" max="100"></progress>
+                <span id="hunger-value">0</span>
+            </div>
+            <div class="status-item">
+                <label for="happiness-bar">행복도:</label>
+                <progress id="happiness-bar" value="100" max="100"></progress>
+                <span id="happiness-value">100</span>
+            </div>
+            <div class="status-item">
+                <label for="energy-bar">피로도:</label>
+                <progress id="energy-bar" value="0" max="100"></progress>
+                <span id="energy-value">0</span>
+            </div>
+        </div>
+
+        <div class="controls">
+            <button id="feed-btn">🍽️ 먹이 주기</button>
+            <button id="play-btn">⚽ 놀아주기</button>
+            <button id="sleep-btn">😴 재우기</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

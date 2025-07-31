@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  background: radial-gradient(circle at 60% 40%, #ffe0f7 0%, #fff6f9 70%, #fff 100%);
+  font-family: 'Jua', sans-serif;
+  color: #444;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  background: #fff;
+  border-radius: 55% / 45%;
+  box-shadow: 0 8px 24px rgba(255, 182, 185, 0.18), 0 2px 8px #ffe0f7;
+  padding: 32px 20px 28px 20px;
+  width: 220px;
+  height: 280px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  text-align: center;
+  border: 2px solid #ffe0f7;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
